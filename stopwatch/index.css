@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 60%;
+    height: 250px;
+    background-color: black;
+    border-radius: 13px;
+    box-shadow: 0 0 3px;
+    color: white;
+}
+#timer{
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+}
+.buttons{
+    text-align: center;
+    margin-top: 40px;
+}
+button{
+    margin: 0 10px;
+    border: none;
+    font-size: 2rem;
+    width: 50px;
+}
+#start{
+    background-color: green;
+    color: white;
+}
+.pause{
+    background-color: orange;
+    color: white;
+}
+#reset{
+    background-color: red;
+    color: white;
+}
