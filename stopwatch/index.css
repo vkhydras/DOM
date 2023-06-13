@@ -2,13 +2,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(/img/stop\ watch.jpg)  no-repeat center center/cover ;
+    height: 100vh;
 }
 .container{
     width: 60%;
     height: 250px;
-    background-color: black;
-    border-radius: 13px;
-    box-shadow: 0 0 3px;
+    background-color: transparent;
+    border: none;
     color: white;
 }
 #timer{

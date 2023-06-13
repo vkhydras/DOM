@@ -7,8 +7,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(/img/quote\ generator.jpg)  no-repeat center center/cover ;
     height: 100vh;
     text-align: center;
+    color: white;
 }
 .container{
     height: 450px;
@@ -46,6 +48,9 @@ body{
     padding: 10px 15px;
     margin-top: 20px;
     border-radius: 5px;
+}
+.quote{
+    font-size: 20px;
 }
 #new-quote:active{
     background-color: bisque;
